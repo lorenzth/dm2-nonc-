@@ -124,12 +124,6 @@ mot1 = list('en')
 texte2 = list('Je suis ne BCPST en 1ère année')
 
 
-assert chercher_et_remplacer(texte, mot2, mot2) == texte
-try:
-    assert chercher_et_remplacer(texte, mot1, mot2) == texte2
-except:
-    print("votre assert marche pas")
-
 
 assert chercher_et_remplacer(texte, mot2, mot2) == texte
 #assert chercher_et_remplacer(texte, mot1, mot2) == texte2
